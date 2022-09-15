@@ -10,11 +10,11 @@ touch Procfile
 touch Dockerfile
 touch request.rest
 mkdir routes
-touch routes/healthcheck.js 
+touch routes/healthcheck.js
 touch routes/user.js
-mkdir __tests__
-touch ./__tests__/component.js
-touch ./__tests__/unit.js
+mkdir **tests**
+touch ./**tests**/component.js
+touch ./**tests**/unit.js
 npm install express --save
 npm install healthcheck --save
 npm install dotenv --save
